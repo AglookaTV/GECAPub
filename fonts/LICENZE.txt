@@ -1,0 +1,8 @@
+Font usati dal sito GECA Pub (ospitati localmente, scaricati da Google Fonts).
+
+- Bebas Neue  (bebas-neue.woff2)  - Dharma Type - SIL Open Font License 1.1
+- Inter       (inter.woff2)       - Rasmus Andersson - SIL Open Font License 1.1
+- Orbitron    (orbitron.woff2)    - Matt McInerney - SIL Open Font License 1.1
+- Yellowtail  (yellowtail.woff2)  - Astigmatic - Apache License 2.0
+
+Testi delle licenze: https://openfontlicense.org  -  https://www.apache.org/licenses/LICENSE-2.0

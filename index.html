@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GECA Pub · Irish Pub</title>
+  <meta name="description" content="GECA Pub – Irish pub: Guinness e birre alla spina, whiskey, burger, sport in diretta e musica live.">
+  <meta name="theme-color" content="#0a0d0c">
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo" aria-label="GECA Pub – torna all'inizio">
+        <img src="img/logo.png" alt="" class="logo-img" width="44" height="44">
+        <span class="logo-text wordmark" role="img" aria-label="GECA Pub"><svg class="wm-g" viewBox="0 0 69 98" aria-hidden="true"><path d="M58.5 6.5H10.5V51.5H58.5V98"/></svg><span class="wm-eca" aria-hidden="true">eca</span><span class="wm-pub" aria-hidden="true">pub</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Apri menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#servizi" class="nav-link">Servizi</a>
+        <a href="#birre" class="nav-link">Birre</a>
+        <a href="#galleria" class="nav-link">Galleria</a>
+        <a href="#contatti" class="nav-link">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HOME ===== -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content container">
+        <img src="img/logo.png" alt="Logo GECA Pub" class="hero-logo" width="120" height="120">
+        <p class="neon neon-green hero-script">Irish Pub</p>
+        <h1 class="hero-title wordmark" aria-label="GECA Pub"><svg class="wm-g" viewBox="0 0 69 98" aria-hidden="true"><path d="M58.5 6.5H10.5V51.5H58.5V98"/></svg><span class="wm-eca" aria-hidden="true">eca</span><span class="wm-pub" aria-hidden="true">pub</span></h1>
+        <p class="hero-sub">Pinte spillate a regola d'arte, whiskey, burger e partite sul maxischermo.<br>Da noi la serata comincia al primo sorso.</p>
+        <div class="hero-buttons">
+          <a href="#contatti" class="btn btn-primary">Prenota un tavolo</a>
+          <a href="#servizi" class="btn btn-ghost">Scopri il pub</a>
+        </div>
+      </div>
+
+      <div class="ticker" aria-label="Alla spina">
+        <div class="ticker-track">
+          <span>Guinness</span><span>Kilkenny</span><span>Tennent's Super</span><span>Granda</span><span>Paulaner</span><span>Balabiòtt</span><span>Irish Whiskey</span><span>Birre artigianali</span><span>Burger</span><span>Sport live</span><span>Sláinte!</span>
+          <span aria-hidden="true">Guinness</span><span aria-hidden="true">Kilkenny</span><span aria-hidden="true">Tennent's Super</span><span aria-hidden="true">Granda</span><span aria-hidden="true">Paulaner</span><span aria-hidden="true">Balabiòtt</span><span aria-hidden="true">Irish Whiskey</span><span aria-hidden="true">Birre artigianali</span><span aria-hidden="true">Burger</span><span aria-hidden="true">Sport live</span><span aria-hidden="true">Sláinte!</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CHI SIAMO ===== -->
+    <section class="about clover-watermark" id="about">
+      <div class="container about-grid">
+        <div class="about-media">
+          <img src="img/spillatura.jpg" alt="Il nostro publican al bancone mentre spilla una birra" loading="lazy" width="516" height="387">
+          <div class="about-badge">
+            <span class="neon neon-amber">Irish</span>
+            <strong>PUB</strong>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="eyebrow">Chi siamo</p>
+          <h2 class="section-title">La pinta perfetta<br>non ha fretta</h2>
+          <p>
+            Pareti verde smeraldo, spine in ottone, luci basse e il rumore dei bicchieri:
+            il <strong>GECA Pub</strong> è il posto dove fermarsi dopo il lavoro,
+            ritrovarsi con gli amici per la partita o fare tardi davanti a un buon whiskey.
+          </p>
+          <p>
+            Ogni Guinness viene spillata in due tempi, come vuole la tradizione.
+            Il resto lo fa la compagnia. <em>Sláinte!</em>
+          </p>
+          <ul class="stats">
+            <li><strong>6+</strong><span>Birre alla spina</span></li>
+            <li><strong>40+</strong><span>Whiskey &amp; distillati</span></li>
+            <li><strong>6/7</strong><span>Aperti dal lunedì al sabato</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVIZI ===== -->
+    <section class="services clover-watermark" id="servizi">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Servizi</p>
+          <h2 class="section-title">Cosa trovi al GECA</h2>
+          <p class="section-sub">Dalla prima pinta all'ultimo brindisi</p>
+        </header>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <img src="img/spine.jpg" alt="Le spine di birra illuminate di blu" loading="lazy" width="516" height="387">
+            <div class="feature-body">
+              <h3>Birre alla spina</h3>
+              <p>Guinness, Kilkenny, Tennent's Super, Granda, Paulaner e Balabiòtt, più birre a rotazione, servite alla temperatura giusta.</p>
+            </div>
+          </article>
+          <article class="feature-card">
+            <img src="img/bancone-led.jpg" alt="Il bancone con la bottigliera illuminata" loading="lazy" width="600" height="506">
+            <div class="feature-body">
+              <h3>Whiskey &amp; Cocktail</h3>
+              <p>Una bottigliera ricca di Irish whiskey, Scotch e distillati, più i grandi classici miscelati.</p>
+            </div>
+          </article>
+          <article class="feature-card">
+            <img src="img/burger.jpg" alt="Burger con bacon e cheddar servito con patatine" loading="lazy" width="501" height="399">
+            <div class="feature-body">
+              <h3>Burger &amp; Cucina</h3>
+              <p>Burger alti così, patatine croccanti, fish &amp; chips e taglieri da condividere.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="mini-grid">
+          <article class="mini-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><!-- pallone da rugby --><ellipse cx="12" cy="12" rx="10" ry="5.6" transform="rotate(-45 12 12)"/><path d="M7.6 16.4 16.4 7.6"/><path d="M9 13.4l1.6 1.6M11.2 11.2l1.6 1.6M13.4 9l1.6 1.6"/></svg>
+            <div>
+              <h3>Sport in diretta</h3>
+              <p>Calcio, rugby e Sei Nazioni sui nostri schermi.</p>
+            </div>
+          </article>
+          <article class="mini-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><!-- arpa celtica --><path d="M10 21H8C4.5 15 4.8 8.5 7.5 3.8c3.5-1.2 6.5 2.4 11.1.4L10 21"/><path d="M18.6 4.2c1.2-.5 1.4-1.9.4-2.2"/><path d="M10.2 4.2v15.6M12.2 4.6v12M14.2 5v7.8M16.2 5v3.9" stroke-width="1.1"/></svg>
+            <div>
+              <h3>Musica live</h3>
+              <p>Serate folk, rock e session nei fine settimana.</p>
+            </div>
+          </article>
+          <article class="mini-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><!-- due pinte che brindano --><g id="pinta-brindisi" transform="translate(9.2 8.6) rotate(14)"><path d="M-3 0-2.3 11h4.6L3 0"/><path d="M-3 0q1-1.6 2 0q1-1.6 2 0q1-1.6 2 0M-2.8 2.6h5.6"/></g><use href="#pinta-brindisi" transform="matrix(-1 0 0 1 24 0)"/><path d="M12 2.2v2.2M8.9 3.2l1.2 1.3M15.1 3.2l-1.2 1.3"/></svg>
+            <div>
+              <h3>Feste private</h3>
+              <p>Compleanni, lauree e eventi: chiedi un preventivo.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BIRRE ===== -->
+    <!--
+      Loghi: salvate i file ufficiali in img/birre/ con questi nomi
+      (PNG con sfondo trasparente o SVG):
+        guinness.png  kilkenny.png  tennents.png  granda.png  paulaner.png  balabiott.png
+      Se un file manca, al suo posto compare il nome della birra.
+    -->
+    <section class="beers" id="birre">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Alla spina</p>
+          <h2 class="section-title">Le nostre birre</h2>
+          <p class="section-sub">Le sei spine che non mancano mai al GECA</p>
+        </header>
+
+        <div class="beer-grid" id="beerGrid">
+          <div class="beer-track" id="beerTrack">
+            <article class="beer-card">
+              <div class="beer-coaster" data-logo="img/birre/guinness">
+                <span class="beer-fallback bf-guinness">Guinness</span>
+              </div>
+              <h3>Guinness</h3>
+              <p class="beer-style">Stout · Irlanda</p>
+              <p>La regina del pub: nera, cremosa, spillata in due tempi.</p>
+            </article>
+            <article class="beer-card">
+              <div class="beer-coaster" data-logo="img/birre/kilkenny">
+                <span class="beer-fallback bf-kilkenny">Kilkenny</span>
+              </div>
+              <h3>Kilkenny</h3>
+              <p class="beer-style">Red Ale · Irlanda</p>
+              <p>Rossa irlandese dal gusto maltato e dalla schiuma vellutata.</p>
+            </article>
+            <article class="beer-card">
+              <div class="beer-coaster" data-logo="img/birre/tennents" data-round>
+                <span class="beer-fallback bf-tennents">Tennent's<small>Super</small></span>
+              </div>
+              <h3>Tennent's Super</h3>
+              <p class="beer-style">Strong Lager · Scozia</p>
+              <p>Doppio malto intenso e deciso, per chi cerca carattere.</p>
+            </article>
+            <article class="beer-card">
+              <div class="beer-coaster" data-logo="img/birre/granda">
+                <span class="beer-fallback bf-granda">Granda</span>
+              </div>
+              <h3>Granda</h3>
+              <p class="beer-style">Artigianale · Italia</p>
+              <p>La nostra scelta artigianale, fresca e da scoprire.</p>
+            </article>
+            <article class="beer-card">
+              <div class="beer-coaster" data-logo="img/birre/paulaner" data-round>
+                <span class="beer-fallback bf-paulaner">Paulaner</span>
+              </div>
+              <h3>Paulaner</h3>
+              <p class="beer-style">Bavarese · Germania</p>
+              <p>Il classico di Monaco: morbida, dorata, dissetante.</p>
+            </article>
+            <article class="beer-card">
+              <div class="beer-coaster" data-logo="img/birre/balabiott">
+                <span class="beer-fallback bf-balabiott">Balabiòtt</span>
+              </div>
+              <h3>Balabiòtt</h3>
+              <p class="beer-style">Artigianale · Val d'Ossola</p>
+              <p>Birra artigianale ossolana, dalle montagne del Piemonte.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BANDA NEON ===== -->
+    <section class="neon-band clover-watermark" aria-hidden="true">
+      <p class="neon neon-green flicker">Sláinte!</p>
+    </section>
+
+    <!-- ===== GALLERIA ===== -->
+    <section class="gallery" id="galleria">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Galleria</p>
+          <h2 class="section-title">Dentro il GECA</h2>
+          <p class="section-sub">Tocca una foto per ingrandirla</p>
+        </header>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item g-wide">
+            <img src="img/sala.jpg" alt="La sala con i tavoli in legno e le cisterne in rame" loading="lazy" width="550" height="412">
+            <figcaption>La sala</figcaption>
+          </figure>
+          <figure class="gallery-item g-tall">
+            <img src="img/angolo-guinness.jpg" alt="L'angolo Guinness con la maglietta GECA Irish Pub" loading="lazy" width="427" height="468">
+            <figcaption>L'angolo Guinness</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/spillatura.jpg" alt="Spillatura al bancone" loading="lazy" width="516" height="387">
+            <figcaption>Al bancone</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/spine.jpg" alt="Le spine illuminate di blu" loading="lazy" width="516" height="387">
+            <figcaption>Le nostre spine</figcaption>
+          </figure>
+          <figure class="gallery-item g-tall">
+            <img src="img/bancone-led.jpg" alt="La bottigliera illuminata a LED" loading="lazy" width="600" height="506">
+            <figcaption>La bottigliera</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/burger.jpg" alt="Burger con patatine" loading="lazy" width="501" height="399">
+            <figcaption>Dalla cucina</figcaption>
+          </figure>
+          <figure class="gallery-item g-wide">
+            <img src="img/interno.jpg" alt="Il corridoio del pub con pavimento a scacchi e bottiglie" loading="lazy" width="533" height="400">
+            <figcaption>Il pub di sera</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTATTI ===== -->
+    <section class="contact" id="contatti">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Contatti</p>
+          <h2 class="section-title">Vieni a trovarci</h2>
+          <p class="section-sub">Chiamaci per prenotare un tavolo o organizzare un evento</p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="info-block">
+              <h3>Dove siamo</h3>
+              <p>
+                <a href="https://www.google.com/maps/search/?api=1&amp;query=Geca%20Pub%2C%20Via%20Palestro%2014%2C%20Como&amp;query_place_id=ChIJdeBQ4i-chkcRuIj8b7Xn8Dg" target="_blank" rel="noopener">Via Palestro 14<br>22100 Como (CO)</a>
+              </p>
+            </div>
+            <div class="info-block">
+              <h3>Telefono</h3>
+              <p>
+                <a href="tel:+39031273039">031 273039</a>
+              </p>
+            </div>
+            <div class="info-block">
+              <h3>Orari</h3>
+              <table class="hours">
+                <tr><td rowspan="2">Lun – Sab</td><td>07:00 – 14:00</td></tr>
+                <tr><td>17:00 – 03:00</td></tr>
+                <tr class="closed"><td>Domenica</td><td>Chiuso</td></tr>
+              </table>
+            </div>
+            <div class="socials">
+              <a href="https://www.facebook.com/GecaPub/" target="_blank" rel="noopener" aria-label="Facebook del GECA Pub">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v8h4v-8h3l1-4h-4V8z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/gecapub/" target="_blank" rel="noopener" aria-label="Instagram del GECA Pub">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- ===== RECENSIONI GOOGLE =====
+            Per aggiungere una recensione copiala dalla scheda Google Maps del pub
+            e inseriscila nell'elenco qui sotto (una per blocco { ... }, separati da virgola).
+            Vengono mostrate SOLO quelle con "stelle": 5.
+            Esempio di formato:
+              { "nome": "Nome Cognome", "stelle": 5, "testo": "Testo della recensione...", "quando": "2 mesi fa" }
+          -->
+          <script type="application/json" id="reviewsData">
+          [
+          ]
+          </script>
+
+          <aside class="reviews-box" aria-labelledby="reviewsTitle">
+            <div class="reviews-head">
+              <p class="eyebrow">Recensioni Google</p>
+              <h3 id="reviewsTitle">Dicono di noi</h3>
+            </div>
+
+            <!-- le recensioni vengono inserite qui da script.js -->
+            <div class="reviews-list" id="reviewsList" aria-live="polite"></div>
+            <div class="reviews-dots" id="reviewsDots" role="tablist" aria-label="Scegli la recensione"></div>
+
+            <!-- mostrato finché non ci sono recensioni nell'elenco -->
+            <div class="reviews-empty" id="reviewsEmpty">
+              <p class="reviews-quote">“Una pinta, due chiacchiere e la voglia di tornare.”</p>
+              <p>Sei già stato al GECA? Raccontalo su Google: le tue parole aiutano altri a scoprirci.</p>
+            </div>
+
+            <a href="https://www.google.com/maps/place/Geca+Pub/@45.8001779,9.0929663,17z/data=!4m8!3m7!1s0x47869c2fe250e075:0x38f0e7b56ffc88b8!8m2!3d45.8001779!4d9.0929663!9m1!1b1!16s%2Fg%2F1hc1xygnx" class="btn btn-primary full" target="_blank" rel="noopener">Leggi e lascia una recensione</a>
+          </aside>
+
+        </div>
+
+        <!-- Mappa -->
+        <div class="map-card">
+          <iframe
+            src="https://maps.google.com/maps?q=Geca%20Pub%2C%20Via%20Palestro%2014%2C%2022100%20Como&amp;z=16&amp;output=embed"
+            title="Mappa: GECA Pub, Via Palestro 14, Como"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+          <div class="map-overlay">
+            <p class="eyebrow">Come arrivare</p>
+            <p class="map-address">Via Palestro 14<br>22100 Como (CO)</p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Geca%20Pub%2C%20Via%20Palestro%2014%2C%20Como&amp;query_place_id=ChIJdeBQ4i-chkcRuIj8b7Xn8Dg" class="btn btn-primary" target="_blank" rel="noopener">Apri in Google Maps</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <img src="img/logo.png" alt="Logo GECA Pub" class="footer-logo" width="64" height="64">
+      <p class="neon neon-green footer-script">Sláinte!</p>
+      <p class="footer-copy">© <span id="year"></span> GECA Pub · Tutti i diritti riservati</p>
+      <!-- DATI OBBLIGATORI: sostituire i testi evidenziati (classe "todo") con i dati reali -->
+      <p class="footer-legal">
+        <span class="todo">[RAGIONE SOCIALE]</span> · P.IVA <span class="todo">[00000000000]</span> ·
+        <span class="todo">[SEDE LEGALE]</span>
+      </p>
+      <nav class="footer-links" aria-label="Note legali">
+        <a href="privacy.html">Privacy</a>
+        <a href="cookie-policy.html">Cookie policy</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Lightbox galleria -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Foto ingrandita">
+    <button class="lb-btn lb-close" id="lbClose" aria-label="Chiudi">×</button>
+    <button class="lb-btn lb-prev" id="lbPrev" aria-label="Foto precedente">‹</button>
+    <figure class="lb-figure">
+      <img id="lbImg" src="" alt="">
+      <figcaption id="lbCaption"></figcaption>
+    </figure>
+    <button class="lb-btn lb-next" id="lbNext" aria-label="Foto successiva">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

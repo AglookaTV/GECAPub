@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="320" viewBox="0 0 1400 320">
+  <!-- Sagome in stile vetrate del GECA: figure piene, mobili solo a contorno.
+       Striscia che si ripete in orizzontale (filigrana della banda "Sláinte!"). -->
+  <style>
+    .f { fill: #fff; stroke: #fff; stroke-width: 16; stroke-linejoin: round; stroke-linecap: round; }
+    .l { fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; }
+    .m { fill: none; stroke: #fff; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+    .g { fill: #fff; }
+  </style>
+
+  <!-- 1. Donna sdraiata sulla poltrona (dalle vetrate) -->
+  <path class="m" d="M78 295V170q0-30 28-30t28 30v68h128M262 238v-16q0-24 24-24t24 24-24 24h-24M78 295h222v-49M92 295v14M288 295v14"/>
+  <ellipse class="g" cx="128" cy="118" rx="17" ry="19"/>
+  <ellipse class="g" cx="121" cy="123" rx="16" ry="17"/>
+  <path class="l" stroke-width="15" d="M133 134l4 10"/>
+  <path class="f" d="M120 150l36-4 48 74-32 12z"/>
+  <path class="l" stroke-width="11" d="M150 152l28 28-32-50"/>
+  <path class="l" stroke-width="11" d="M126 156l-26 34-5 25"/>
+  <path class="l" stroke-width="20" d="M190 226l78-18"/>
+  <path class="l" stroke-width="15" d="M268 208l67 84"/>
+  <path class="l" stroke-width="9" d="M335 292l17 4"/>
+  <path class="l" stroke-width="20" d="M182 230l76-6"/>
+  <path class="l" stroke-width="15" d="M258 224l60 74"/>
+  <path class="l" stroke-width="9" d="M318 298l16 4"/>
+
+  <!-- 2. Due amiche che brindano sul divano (dalle vetrate) -->
+  <path class="m" d="M430 290v-75q0-25 25-25t25 25v35M480 250v-60q0-25 40-25h80q20 0 20 20 0-20 20-20h80q40 0 40 25v60M760 250v-35q0-25 25-25t25 25v75M430 290h380M480 250h280M445 290v14M795 290v14"/>
+  <!-- amica a sinistra -->
+  <ellipse class="g" cx="556" cy="118" rx="17" ry="19"/>
+  <ellipse class="g" cx="549" cy="123" rx="16" ry="17"/>
+  <path class="l" stroke-width="15" d="M560 134l2 10"/>
+  <path class="f" d="M548 150l34-2 8 90-34 4z"/>
+  <path class="l" stroke-width="20" d="M575 238l57 6"/>
+  <path class="l" stroke-width="15" d="M632 244l-4 56"/>
+  <path class="l" stroke-width="9" d="M628 300l17 2"/>
+  <path class="l" stroke-width="11" d="M578 156l26 30 20-28"/>
+  <path class="l" stroke-width="11" d="M552 158l8 42 30 22"/>
+  <path class="g" d="M612 128h28l-14 18z"/>
+  <path class="l" stroke-width="3" d="M626 146v16M619 162h14"/>
+  <!-- amica a destra -->
+  <ellipse class="g" cx="708" cy="114" rx="17" ry="19"/>
+  <ellipse class="g" cx="715" cy="119" rx="16" ry="17"/>
+  <path class="l" stroke-width="15" d="M704 130l-3 10"/>
+  <path class="f" d="M686 146l34 2-8 90-32-4z"/>
+  <path class="l" stroke-width="20" d="M692 236l-24 16"/>
+  <path class="l" stroke-width="15" d="M668 252l4 50"/>
+  <path class="l" stroke-width="9" d="M672 302l-17 2"/>
+  <path class="l" stroke-width="11" d="M692 154l-28 30-14-28"/>
+  <path class="l" stroke-width="11" d="M716 156l29 19 25-3"/>
+  <path class="g" d="M638 126h28l-14 18z"/>
+  <path class="l" stroke-width="3" d="M652 144v16M645 160h14"/>
+  <!-- cin cin -->
+  <path class="l" stroke-width="4" d="M639 96v14M624 100l6 9M654 100l-6 9"/>
+
+  <!-- 3. Uomo sullo sgabello con la pinta (inventata) -->
+  <path class="m" d="M900 222q45-14 90 0M912 224l-12 81M978 224l12 81M906 262h78"/>
+  <circle class="g" cx="946" cy="96" r="17"/>
+  <path class="l" stroke-width="17" d="M946 110v10"/>
+  <path class="f" d="M922 128h50l-10 90h-32z"/>
+  <path class="l" stroke-width="22" d="M950 216l50 6"/>
+  <path class="l" stroke-width="17" d="M1000 222l-8 40"/>
+  <path class="l" stroke-width="10" d="M992 262h18"/>
+  <path class="l" stroke-width="22" d="M940 218l52 14"/>
+  <path class="l" stroke-width="17" d="M992 232l12 70"/>
+  <path class="l" stroke-width="10" d="M1004 302l18 2"/>
+  <path class="l" stroke-width="13" d="M966 136l24 42 26-18"/>
+  <path class="l" stroke-width="13" d="M926 138l-8 42 22 28"/>
+  <path class="g" d="M1008 124h24l-3 40h-18z"/>
+
+  <!-- 4. Coppia in piedi che brinda con le pinte (inventata) -->
+  <!-- lei -->
+  <ellipse class="g" cx="1168" cy="86" rx="16" ry="18"/>
+  <ellipse class="g" cx="1161" cy="91" rx="15" ry="16"/>
+  <path class="l" stroke-width="14" d="M1171 102l1 10"/>
+  <path class="f" d="M1160 120h26l8 50 12 68h-52l12-68z"/>
+  <path class="l" stroke-width="12" d="M1170 240l-2 63M1190 240l4 63"/>
+  <path class="l" stroke-width="10" d="M1186 124l26 28 20-28"/>
+  <path class="l" stroke-width="10" d="M1162 126l-6 39 6 30"/>
+  <path class="g" d="M1224 90h22l-3 36h-16z"/>
+  <!-- lui -->
+  <circle class="g" cx="1300" cy="76" r="18"/>
+  <path class="l" stroke-width="17" d="M1300 91v11"/>
+  <path class="f" d="M1278 112h44l-8 93h-28z"/>
+  <path class="l" stroke-width="20" d="M1290 205l-6 98M1310 205l8 98"/>
+  <path class="l" stroke-width="13" d="M1282 118l-24 30-8-30"/>
+  <path class="l" stroke-width="13" d="M1318 118l10 42-6 40"/>
+  <path class="g" d="M1238 84h24l-3 38h-18z"/>
+  <!-- cin cin -->
+  <path class="l" stroke-width="4" d="M1243 56v14M1228 60l6 9M1258 60l-6 9"/>
+</svg>
