@@ -23,7 +23,7 @@
 
   <main class="legal">
     <h1>Informativa privacy</h1>
-    <p class="updated">Ultimo aggiornamento: 23 settembre 2026</p>
+    <p class="updated">Ultimo aggiornamento: 24 settembre 2026</p>
 
     <!-- NOTA PER IL GESTORE: rimuovere questo riquadro prima della pubblicazione -->
     <div class="legal-note">
@@ -59,20 +59,28 @@
       <li><strong>Conservazione:</strong> <span class="todo">[PERIODO INDICATO DAL FORNITORE DI HOSTING, es. 30 giorni]</span>, salvo necessità di accertare reati.</li>
     </ul>
 
-    <p><strong>b) Mappa di Google</strong></p>
+    <p><strong>b) Mappa di Google (solo con il tuo consenso)</strong></p>
     <p>
-      Nella sezione Contatti è incorporata una mappa di Google Maps. Quando la pagina la mostra, il tuo
-      browser si collega ai server di Google, che riceve dati come l'indirizzo IP e può installare cookie.
-      Per questi dati Google Ireland Limited agisce come titolare autonomo; Google può trasferirli negli
-      Stati Uniti nell'ambito dell'EU-U.S. Data Privacy Framework.
+      Nella sezione Contatti la mappa di Google Maps <strong>si carica solo se accetti</strong> i relativi
+      cookie, dal banner o dal pulsante nel riquadro della mappa. In quel momento il tuo browser si
+      collega ai server di Google, che riceve dati come l'indirizzo IP e può installare cookie, anche di
+      profilazione. Per questi dati Google Ireland Limited agisce come titolare autonomo; Google può
+      trasferirli negli Stati Uniti nell'ambito dell'EU-U.S. Data Privacy Framework.
     </p>
     <ul>
-      <li><strong>Base giuridica:</strong> <span class="todo">[DA DEFINIRE CON IL CONSULENTE: con la mappa caricata automaticamente i cookie di Google richiedono un consenso preventivo, di norma raccolto con un banner cookie]</span></li>
-      <li><strong>Come limitarlo:</strong> puoi bloccare o cancellare i cookie di Google dalle impostazioni del browser (vedi la <a href="cookie-policy.html">cookie policy</a>).</li>
+      <li><strong>Base giuridica:</strong> il tuo consenso (art. 6, par. 1, lett. a GDPR e art. 122 del Codice privacy). Se non lo dai, il sito funziona comunque: la mappa resta disattivata e puoi aprire il locale in Google Maps con il link dedicato.</li>
+      <li><strong>Revoca:</strong> in ogni momento dal link "Preferenze cookie" in fondo a ogni pagina; i cookie già installati da Google si eliminano dalle impostazioni del browser (vedi la <a href="cookie-policy.html">cookie policy</a>).</li>
       <li><strong>Informativa di Google:</strong> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
     </ul>
 
-    <p><strong>c) Prenotazioni telefoniche</strong></p>
+    <p><strong>c) Memoria della tua scelta sui cookie</strong></p>
+    <p>
+      Per non riproporti il banner a ogni visita, il sito salva nel tuo browser (local storage) solo la
+      scelta fatta e la sua data, per 6 mesi. Non contiene dati che ti identificano e non viene inviata
+      a nessuno. Base giuridica: si tratta di uno strumento tecnico necessario (art. 122 del Codice privacy).
+    </p>
+
+    <p><strong>d) Prenotazioni telefoniche</strong></p>
     <p>
       Se chiami per prenotare un tavolo o un evento, useremo il nome e il numero che ci lasci solo per
       gestire la prenotazione (art. 6, par. 1, lett. b GDPR) e li conserveremo per il tempo necessario a
@@ -91,7 +99,7 @@
         Il fornitore del servizio di hosting, <span class="todo">[NOME DEL FORNITORE DI HOSTING]</span>,
         nominato responsabile del trattamento (art. 28 GDPR).
       </li>
-      <li>Google, per la mappa, come indicato al punto 2.b.</li>
+      <li>Google, solo per la mappa e solo dopo il tuo consenso, come indicato al punto 2.b.</li>
     </ul>
     <p>I dati non vengono venduti né usati per pubblicità o profilazione.</p>
 
@@ -135,9 +143,11 @@
       <nav class="footer-links" aria-label="Note legali">
         <a href="privacy.html">Privacy</a>
         <a href="cookie-policy.html">Cookie policy</a>
+        <button type="button" class="footer-cookie-btn" data-cookie-prefs>Preferenze cookie</button>
       </nav>
     </div>
   </footer>
 
+  <script src="cookie-consent.js"></script>
 </body>
 </html>

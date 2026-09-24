@@ -23,34 +23,47 @@
 
   <main class="legal">
     <h1>Cookie policy</h1>
-    <p class="updated">Ultimo aggiornamento: 23 settembre 2026</p>
+    <p class="updated">Ultimo aggiornamento: 24 settembre 2026</p>
 
     <!-- NOTA PER IL GESTORE: rimuovere questo riquadro prima della pubblicazione -->
     <div class="legal-note">
       <strong>Nota per il gestore del sito (da rimuovere prima della pubblicazione):</strong>
-      la mappa di Google si carica automaticamente e può installare cookie di terze parti anche
-      di profilazione: secondo le linee guida del Garante serve un <strong>banner cookie</strong> che
-      raccolga il consenso <em>prima</em> di caricarla. Da valutare con il consulente privacy.
+      se in futuro si aggiungono altri servizi con cookie (statistiche, pixel dei social, video
+      incorporati), vanno elencati qui e aggiunti al banner; in quel caso aumentare "VERSION" in
+      cookie-consent.js, così il consenso viene richiesto di nuovo a tutti.
     </div>
 
     <h2>In breve</h2>
     <p>
-      <strong>Il sito del GECA Pub non installa cookie propri e non usa cookie di statistica
-      o pubblicità.</strong> L'unico servizio che può installare cookie è la mappa di Google
-      incorporata nella sezione Contatti.
+      <strong>Il sito del GECA Pub non usa cookie propri di statistica, pubblicità o profilazione.</strong>
+      L'unico servizio che può installare cookie di terze parti è la mappa di Google Maps nella sezione
+      Contatti, che <strong>si carica solo se lo accetti</strong>. Se rifiuti, il sito funziona
+      normalmente.
     </p>
 
     <h2>Cosa sono i cookie</h2>
     <p>
       I cookie sono piccoli file di testo che un sito salva nel browser per ricordare informazioni
       sulla visita. Strumenti simili (come il "local storage") funzionano allo stesso modo e sono
-      trattati alla stessa maniera: anche questi non vengono usati dal nostro sito.
+      trattati alla stessa maniera.
     </p>
 
-    <h2>Cookie di questo sito</h2>
-    <p>Nessuno. Il sito non salva nulla nel tuo browser.</p>
+    <h2>Strumenti tecnici (non richiedono consenso)</h2>
+    <table>
+      <thead>
+        <tr><th>Nome</th><th>Tipo</th><th>Finalità</th><th>Durata</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>geca-consenso-cookie</td>
+          <td>Local storage, di questo sito</td>
+          <td>Ricordare la tua scelta sui cookie, per non riproporti il banner a ogni visita</td>
+          <td>6 mesi, poi la scelta ti viene richiesta</td>
+        </tr>
+      </tbody>
+    </table>
 
-    <h2>Cookie di terze parti</h2>
+    <h2>Cookie di terze parti (solo con il tuo consenso)</h2>
     <table>
       <thead>
         <tr><th>Servizio</th><th>Quando</th><th>Finalità</th><th>Informazioni</th></tr>
@@ -58,7 +71,7 @@
       <tbody>
         <tr>
           <td>Google Maps<br><small>Google Ireland Ltd</small></td>
-          <td>Quando la pagina mostra la mappa, nella sezione Contatti</td>
+          <td>Solo dopo aver premuto "Accetta" nel banner o "Accetta e carica la mappa"</td>
           <td>Mostrare la mappa; Google può usare i cookie anche per scopi propri, inclusa la personalizzazione della pubblicità</td>
           <td><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener">Cookie di Google</a><br><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy di Google</a></td>
         </tr>
@@ -70,15 +83,17 @@
       collegamenti: non caricano nulla finché non li clicchi.
     </p>
 
-    <h2>Come gestire i cookie</h2>
-    <p>
-      Puoi bloccare o eliminare i cookie di Google (e di qualsiasi altro sito) dalle impostazioni del
-      browser: il resto del sito continua a funzionare normalmente.
-      <a href="https://support.google.com/chrome/answer/95647?hl=it" target="_blank" rel="noopener">Chrome</a>,
-      <a href="https://support.mozilla.org/it/kb/Eliminare%20i%20cookie" target="_blank" rel="noopener">Firefox</a>,
-      <a href="https://support.apple.com/it-it/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a>,
-      <a href="https://support.microsoft.com/it-it/microsoft-edge" target="_blank" rel="noopener">Edge</a>.
-    </p>
+    <h2>Come dare, rifiutare o revocare il consenso</h2>
+    <ul>
+      <li><strong>Alla prima visita</strong> ti chiediamo la tua scelta con un banner: "Accetta" e "Rifiuta" hanno la stessa evidenza; chiudere il banner con la × equivale a rifiutare.</li>
+      <li><strong>In qualsiasi momento</strong> puoi cambiare idea dal link <button type="button" class="footer-cookie-btn" data-cookie-prefs>Preferenze cookie</button>, presente anche in fondo a ogni pagina.</li>
+      <li><strong>Per eliminare i cookie già installati</strong> da Google usa le impostazioni del browser:
+        <a href="https://support.google.com/chrome/answer/95647?hl=it" target="_blank" rel="noopener">Chrome</a>,
+        <a href="https://support.mozilla.org/it/kb/Eliminare%20i%20cookie" target="_blank" rel="noopener">Firefox</a>,
+        <a href="https://support.apple.com/it-it/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a>,
+        <a href="https://support.microsoft.com/it-it/microsoft-edge" target="_blank" rel="noopener">Edge</a>.
+      </li>
+    </ul>
 
     <h2>Titolare del trattamento</h2>
     <p>
@@ -99,9 +114,11 @@
       <nav class="footer-links" aria-label="Note legali">
         <a href="privacy.html">Privacy</a>
         <a href="cookie-policy.html">Cookie policy</a>
+        <button type="button" class="footer-cookie-btn" data-cookie-prefs>Preferenze cookie</button>
       </nav>
     </div>
   </footer>
 
+  <script src="cookie-consent.js"></script>
 </body>
 </html>

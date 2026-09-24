@@ -376,12 +376,20 @@
 
         <!-- Mappa -->
         <div class="map-card">
-          <iframe
-            src="https://maps.google.com/maps?q=Geca%20Pub%2C%20Via%20Palestro%2014%2C%2022100%20Como&amp;z=16&amp;output=embed"
-            title="Mappa: GECA Pub, Via Palestro 14, Como"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            allowfullscreen></iframe>
+          <!-- La mappa di Google si carica SOLO con il consenso ai cookie di Google Maps
+               (gestito da cookie-consent.js). Senza consenso resta questo riquadro. -->
+          <div class="map-frame" id="mapFrame"
+               data-src="https://maps.google.com/maps?q=Geca%20Pub%2C%20Via%20Palestro%2014%2C%2022100%20Como&amp;z=16&amp;output=embed">
+            <div class="map-consent">
+              <svg class="map-consent-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+              <p class="map-consent-title">Mappa di Google</p>
+              <p class="map-consent-text">
+                La mappa è disattivata perché Google Maps può installare cookie di terze parti.
+                Accettandoli la mappa si carica subito. <a href="cookie-policy.html">Cookie policy</a>
+              </p>
+              <button type="button" class="btn btn-ghost" data-cookie-accept-maps>Accetta e carica la mappa</button>
+            </div>
+          </div>
           <div class="map-overlay">
             <p class="eyebrow">Come arrivare</p>
             <p class="map-address">Via Palestro 14<br>22100 Como (CO)</p>
@@ -405,6 +413,7 @@
       <nav class="footer-links" aria-label="Note legali">
         <a href="privacy.html">Privacy</a>
         <a href="cookie-policy.html">Cookie policy</a>
+        <button type="button" class="footer-cookie-btn" data-cookie-prefs>Preferenze cookie</button>
       </nav>
     </div>
   </footer>
@@ -420,6 +429,7 @@
     <button class="lb-btn lb-next" id="lbNext" aria-label="Foto successiva">›</button>
   </div>
 
+  <script src="cookie-consent.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
