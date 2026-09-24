@@ -1,3 +1,9 @@
+/*!
+ * GECA Pub – sito web
+ * Progettazione grafica e sviluppo: Federico Bianchi
+ * © 2026 Federico Bianchi. Tutti i diritti riservati.
+ * Vietata la riproduzione, anche parziale, senza autorizzazione dell'autore.
+ */
 // ============================================
 // GECA Pub – gestione del consenso ai cookie
 // Secondo le Linee guida cookie del Garante Privacy (10 giugno 2021):
