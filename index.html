@@ -8,8 +8,46 @@
   <meta name="theme-color" content="#0a0d0c">
   <link rel="icon" type="image/png" href="img/logo.png">
   <link rel="stylesheet" href="style.css">
+  <script>
+    // Schermata di caricamento: visibile solo con JavaScript attivo (così non può bloccare il sito),
+    // resta almeno MIN ms (il tempo di "spillare" la pinta) e al massimo 8 secondi.
+    document.documentElement.classList.add('js');
+    (function () {
+      var start = Date.now(), MIN = 1300;
+      function hide() {
+        var l = document.getElementById('loader');
+        if (!l || l.classList.contains('done')) return;
+        l.classList.add('done');
+        setTimeout(function () { l.remove(); }, 700);
+      }
+      window.addEventListener('load', function () {
+        setTimeout(hide, Math.max(0, MIN - (Date.now() - start)));
+      });
+      setTimeout(hide, 8000);
+    })();
+  </script>
 </head>
 <body>
+
+  <!-- ===== CARICAMENTO: una pinta che si riempie ===== -->
+  <div class="loader" id="loader" role="status" aria-label="Caricamento del sito">
+    <svg class="pint" viewBox="0 0 120 200" aria-hidden="true">
+      <defs>
+        <clipPath id="pintClip">
+          <path d="M16 12h88l3 28-11 148q-1 6-7 6H31q-6 0-7-6L13 40z"/>
+        </clipPath>
+      </defs>
+      <g clip-path="url(#pintClip)">
+        <g class="pint-liquid">
+          <rect class="pint-stout" x="0" y="24" width="120" height="220"/>
+          <path class="pint-foam" d="M0 6q10-6 20 0t20 0 20 0 20 0 20 0 20 0v22H0z"/>
+        </g>
+      </g>
+      <path class="pint-glass" d="M16 12h88l3 28-11 148q-1 6-7 6H31q-6 0-7-6L13 40z"/>
+      <path class="pint-shine" d="M24 48l8 128"/>
+    </svg>
+    <p class="loader-text">Stiamo spillando la tua pinta<span class="loader-dots"><span>.</span><span>.</span><span>.</span></span></p>
+  </div>
 
   <!-- ===== NAVBAR ===== -->
   <header class="navbar" id="navbar">
